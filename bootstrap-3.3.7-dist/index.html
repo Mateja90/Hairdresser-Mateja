@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Frizerski salon</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js">  </script>
+
+
+  </head>
+  <body>
+
+      <div class="navbar navbar-fixed-top">
+
+         <div class="row">
+           <div class="col-md-5">
+             <div class="navbar sticky-top bg-primary navbar-light  text-center">
+             <h3>Hairdresser Mateja</h3>
+           </div>
+          </div>
+
+           <div class="col-md-7">
+             <div class="sticky-top  navbar-brand  text-center">
+              <form class="form-inline">
+               <a  href="#ponudba">Kaj nudimo</a>
+                  <a  href="#narocilo">Naroči se</a>
+                   <a  href="#vprasanja">Pogosta vprašanja</a>
+                   <a href="#myModal" data-toggle="modal" data-target="#myModal">O nas</a>
+
+                <input class="form-control mr-sm-2" type="text" placeholder="Iskalnik">
+    <button class="btn btn-primary my-2 my-sm-0" type="submit">Poišči</button>
+  </form>
+
+           </div>
+       </div>
+     </div>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="container popover-body">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+ <!-- Indicators -->
+ <ol class="carousel-indicators">
+   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+   <li data-target="#myCarousel" data-slide-to="1"></li>
+   <li data-target="#myCarousel" data-slide-to="2"></li>
+ </ol>
+
+ <!-- Wrapper for slides -->
+ <div class="carousel-inner text-center">
+   <div class="item active ">
+     <img src="http://richhair.co.uk/wp-content/uploads/2016/12/hair-salon.jpg" alt="Salon" style="width:600px;height:228px;">
+   </div>
+
+   <div class="item">
+     <img src="http://cdn.expertise.com/dir/hair-salons.jpg" alt="Hair" style="width:600px;height:228px;">
+   </div>
+
+   <div class="item">
+     <img src="https://udemy-images.udemy.com/course/750x422/267142_c06f_4.jpg" alt="hairwash" style="width:600px;height:228px;">
+   </div>
+ </div>
+
+ <!-- Left and right controls -->
+ <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+   <span class="glyphicon glyphicon-chevron-left"></span>
+   <span class="sr-only">Previous</span>
+ </a>
+ <a class="right carousel-control" href="#myCarousel" data-slide="next">
+   <span class="glyphicon glyphicon-chevron-right"></span>
+   <span class="sr-only">Next</span>
+ </a>
+</div>
+
+<hr>
+     <h2 class="text-center list-group-item active panel-title panel-heading" id="ponudba">Naše storitve</h2>
+     <div class="row">
+       <div class="col-md-4">
+          <h4>Nega las</h4>
+          <img src="http://cdn.newsapi.com.au/image/v1/74566ad7be884dcb81c96a693b8effe2?width=1024" alt="nega" style="width:250px;height:100px;">
+       </div>
+       <div class="col-md-4">
+          <h4>Striženje</h4>
+          <img src="https://d3by7aeulw946k.cloudfront.net/~/media/cx-platform/centres/robina/categories/beauty_hairdresser_large_landscape_2160px-x-878px_.jpg?w=1024&hash=646C51FF2E79F1DCD010392AC00F5367F90BC895" alt="strizenje" style="width:250px;height:100px;">
+       </div>
+       <div class="col-md-4">
+          <h4>Barvanje</h4>
+          <img src="https://i.ytimg.com/vi/W6ubRTJ1uLw/maxresdefault.jpg" alt="barvanje" style="width:250px;height:100px;">
+       </div>
+     </div>
+<hr>
+        <h2 class="text-center list-group-item active panel-heading panel-title" id="narocilo">Naroči se</h2>
+        <br/>
+        <div class="row">
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Ime in priimek"> <br/>
+            <input type="text" class="form-control" placeholder="Telefonska številka"> <br/>
+            <input type="text" class="form-control" placeholder="Termin"> <br/>
+            <textarea class="form-control" placeholder="Ostalo (Želje glede pričeske itd.)" rows="5"></textarea>
+            <br/>
+            <div>
+            <input type="checkbox" class="checkbox">Strinjam se, da je Mateja najboljša frizerka.
+          </div>
+            <br/>
+            <br/>
+            <button class="btn btn-light btn-block">Pošlji</button>
+          </div>
+          <div class="col-md-6">
+             <table class="table">
+                <tr>
+                  <th>Dan</th>
+                  <th>Delovni čas</th>
+                </tr>
+                <tr>
+                  <td>Ponedeljek</td>
+                  <td>8.00-16.00</td>
+                </tr>
+                <tr>
+                  <td>Torek</td>
+                  <td>10.00-18.00</td>
+                </tr>
+                <tr>
+                  <td>Sreda</td>
+                  <td>8.00-16.00</td>
+                </tr>
+                <tr>
+                  <td>Četrtek</td>
+                    <td>8.00-16.00</td>
+                </tr>
+                <tr>
+                  <td>Petek</td>
+                  <td>12.00-20.00</td>
+                </tr>
+                <tr>
+                  <td>Sobota</td>
+                  <td>8.00-16.00</td>
+                  </tr>
+                  <tr>
+                    <td>Nedelja</td>
+                    <td>8.00-12.00</td>
+                  </tr>
+             </table>
+             <p>*Ob praznikih velja nedeljski urnik</p>
+          </div>
+        </div>
+<hr>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+             <h3 class="panel-title text-center" id="vprasanja">FAQ (pogosta vprašanja)</h3>
+          </div>
+        </div>
+          <br/>
+          <div class="panel panel-info">
+          <div class="panel-heading">
+            <h5 class="panel-title">Kakšen je salon in ekipa?</h5>
+          </div>
+          <div class="panel-body ">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+          <br/>
+
+
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h5 class="panel-title">Ali sprejemate hišne ljubljenčke?</h5>
+          </div>
+          <div class="panel-body">
+            Seveda, hišni ljubljenčki so vedno dobrodošli pri nas.<br/>
+            <img src="https://bogatiurns.com/wp-content/uploads/2017/05/pets.jpg" alt="hisniljubljencki"  style="width:250px;height:100px;">
+          </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h5 class="panel-title">Imate kakšne nagrade s tekmovanj?</h5>
+                </div>
+            <div class="panel-body">
+              Naši zaposleni se redno udeležujejo tekmovanj, kjer dosegajo visoke dosežke. <br/>
+            <br/>
+              <img src="https://res.cloudinary.com/jpress/image/fetch/w_700,f_auto,ar_3:2,c_fill/http://www.ballymenatimes.com/webimage/1.7704487.1480519322!/image/image.jpg" alt="nagrada" style="width:350px;height:200px;">
+            </div>
+          </div>
+
+        </div>
+        <hr>
+
+<footer class="container" id="onas">
+  <div class="row">
+    <div class="col-md-4 .col-md-offset-1">
+     <h5>Kontakt</h5>
+     <br/>
+     <p>Frizerstvo Mateja s.p.</p>
+     <p>Davčna Številka: 58476547</p>
+     <p>Frizerska ulica 5, 1000 Ljubljana </p>
+     <p>Tel.: 01/2587-469</p>
+     <p>Email: frizerstvo.mateja@gmail.com</p>
+
+
+    </div>
+    <div class="col-md-4">
+      <img class="img-thumbnail" src="http://salonnavona.com/communities/2/000/001/796/682//images/11465122.jpg" alt="salon">
+    </div>
+    <div class="col-md-4">
+      <h5>Navigacija</h5>
+      <ul>
+        <li> <a href="#ponudba">Kaj nudimo</a></li>
+          <li> <a href="#narocilo">Naroči se</a></li>
+            <li> <a href="#vprasanja">Pogosta vprašanja</a></li>
+              <li> <a href="#onas">O nas</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">O nas</h4>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <img src="https://www.matrix.com/~/media/Images/Blogs/Blog%20Images0052The%2013%20Best%20Volumizing%20Styling%20Tips%20for%20Fine%20Thin%20Hair.jpg" style="width:550px;height:300px;" >
+        <p>Some text..Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--
+
+
+<div class="w3-container">
+  <h2>Modalno okno</h2>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Odpri okno</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>O nas</h2>
+      </header>
+      <div class="w3-container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <img src="https://www.matrix.com/~/media/Images/Blogs/Blog%20Images0052The%2013%20Best%20Volumizing%20Styling%20Tips%20for%20Fine%20Thin%20Hair.jpg" style="width:750px;height:300px;" >
+        <p>Some text..Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Modal Footer</p>
+      </footer>
+    </div>
+  </div>
+</div>
+
+-->
+
+  </body>
+</html>
